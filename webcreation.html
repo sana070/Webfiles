@@ -1,0 +1,172 @@
+<html>
+    <head>
+    <title>
+        getbootstrap
+    </title>
+<style>
+
+.parent ul {
+
+    display: flex;
+    margin: 0;
+    background-color: #333;
+    align-items: baseline;
+    height: 50px;
+ 
+}
+
+.parent li {
+  
+  list-style-type:none; 
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  
+
+}
+
+
+.search {
+    display:flex;  
+    flex-direction: row;    
+
+}
+
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+.firstbox {
+   background-color:#e9ecef;
+  font-size: 60px;
+  height: 300px;
+  width: 100%;
+  font-family: inherit;
+  padding-left: 60px;
+  padding-top: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   
+}
+
+* {
+    margin:0;
+}
+
+.para {
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: inherit;
+    line-height: 25px;
+}
+
+
+.learn {
+    background-color: #007bff;
+    width: 150px;
+    height: 55px;
+    font-size: 20px;
+    color: white;
+    margin-top:20px;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.section {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    word-wrap: break-word;
+    padding-top:30px;
+    padding-left:50px;
+    padding-right:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal
+    
+}
+
+.firstsection {
+    padding: 20px;
+    line-height:25px;
+}
+
+.secondsection {
+    padding: 20px;
+    line-height:25px;
+}
+
+.thirdsection {
+    padding: 20px;
+    line-height:25px;
+}
+
+.view {
+    background-color: #333;
+    color:white;
+    width:150px;
+    height: 55px;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size:20px;
+    border-radius: 9px;
+}
+
+.parent {
+    justify-content: space-between;
+    padding: 20px 20px 10px 1px;
+    display:flex;
+    background-color: #333;
+
+}
+</style>
+<body>
+<header class="parent">
+    <ul>
+        <li style="font-size 30px">Navbar</li>
+        <li>Home</li>
+        <li>Link</li>
+        <li>Contact</li>
+        <li>Dropdown</li>
+        
+    </ul> 
+    
+    <div>
+        <input type="text" placeholder="Search" style="background-color: white; border-radius: 4px;height: 30px;">
+        <button style="height:30px;margin-right: 6px;width: 100px;padding: 2px 2px 2px 2px;border-radius: 3px;background-color: black; color:green;border:1px solid green;">Search</button>
+    </div>
+</header>
+
+
+
+<main>
+    <div class="firstbox">
+    <p>Hello,World!</p>
+    <p class="para">This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+    <button class="learn"> Learn more >> </button>
+</div>
+    <div class="section">
+        <div class="firstsection">
+            <h1 style="margin-bottom:10px">Heading</h1>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+        <button class="view"> View Details </button>
+        </div>
+        <div class="secondsection">
+            <h1 style="margin-bottom:10px">Heading</h1>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            <button class="view"> View Details </button>
+        </div>
+        <div class="thirdsection">
+            <h1 style="margin-bottom:10px">Heading</h1>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <button class="view"> View Details </button>
+        </div>
+    </div>
+</main>
+    <hr>
+    <footer style="padding:10px">© Company 2017-2018</footer>
+</body>
+</html>
